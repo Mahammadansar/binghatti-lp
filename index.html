@@ -28,56 +28,56 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        
+
         .search-filter-container .form-control {
             background: rgba(255, 255, 255, 0.9);
             border: 1px solid rgba(255, 255, 255, 0.3);
             color: #333;
         }
-        
+
         .search-filter-container .form-control:focus {
             background: rgba(255, 255, 255, 1);
             border-color: #007bff;
             box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
         }
-        
+
         .search-filter-container .form-control::placeholder {
             color: #666;
         }
-        
+
         .property-item {
             transition: all 0.3s ease;
         }
-        
+
         .property-item.hidden {
             display: none !important;
         }
-        
+
         .property-item.show-more {
             display: none;
         }
-        
+
         .property-item.show-more.visible {
             display: block;
         }
-        
+
         #noResults {
             color: #fff;
         }
-        
+
         /* .btn-outline-light:hover {
             background-color: rgba(255, 255, 255, 0.1);
             border-color: rgba(255, 255, 255, 0.5);
         } */
-        .btn1{
-  padding: 3px 25px 3px 25px;
-  color: #ffffff;
-  background-color: #0a0c0d;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-  float: right;
-}
+        .btn1 {
+            padding: 3px 25px 3px 25px;
+            color: #ffffff;
+            background-color: #0a0c0d;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            float: right;
+        }
     </style>
 
 </head>
@@ -170,14 +170,16 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="swiper-inner" data-bgimage="url(https://www2.binghatti.com/wp-content/uploads/2024/09/Binghatti-Ghost-exterior.png)">
+                            <div class="swiper-inner"
+                                data-bgimage="url(https://www2.binghatti.com/wp-content/uploads/2024/09/Binghatti-Ghost-exterior.png)">
                                 <div class="sw-overlay op-4"></div>
                             </div>
                         </div>
 
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="swiper-inner" data-bgimage="url(https://www2.binghatti.com/wp-content/uploads/2024/09/image-4.png)">
+                            <div class="swiper-inner"
+                                data-bgimage="url(https://www2.binghatti.com/wp-content/uploads/2024/09/image-4.png)">
                                 <div class="sw-overlay op-4"></div>
                             </div>
                         </div>
@@ -220,7 +222,16 @@
                         <div class="ps-lg-3">
                             <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Featured Developer</div>
                             <h2 class="wow fadeInUp" data-wow-delay=".4s">Binghatti Developers</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Binghatti Developers, the real estate arm of Binghatti Holding, is a Dubai-based firm known for bold architectural innovation and strategic brand collaborations. The company aims to redefine the UAE skyline through iconic, emotionally engaging designs.</p> <p class="wow fadeInUp" data-wow-delay=".6s">Guided by a philosophy of “Artistic Realism,” Binghatti blends functional engineering with signature elements like interwoven balconies and bold geometric forms, creating a distinctive regional identity.</p> <p class="wow fadeInUp" data-wow-delay=".6s">Under the leadership of CEO Muhammad BinGhatti, the firm has delivered over 40 projects across Dubai’s prime locations, including Business Bay, JVC, Downtown, Al Jaddaf, and Dubai Silicon Oasis.</p>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Binghatti Developers, the real estate arm of
+                                Binghatti Holding, is a Dubai-based firm known for bold architectural innovation and
+                                strategic brand collaborations. The company aims to redefine the UAE skyline through
+                                iconic, emotionally engaging designs.</p>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Guided by a philosophy of “Artistic Realism,”
+                                Binghatti blends functional engineering with signature elements like interwoven
+                                balconies and bold geometric forms, creating a distinctive regional identity.</p>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Under the leadership of CEO Muhammad BinGhatti,
+                                the firm has delivered over 40 projects across Dubai’s prime locations, including
+                                Business Bay, JVC, Downtown, Al Jaddaf, and Dubai Silicon Oasis.</p>
                         </div>
                     </div>
 
@@ -231,10 +242,10 @@
                                 <img src="Ivory/IVI.webp" class="img-fluid wow scaleIn" alt="">
                             </div>
                             <div class="col-6"> -->
-                                <!-- <div class="spacer-single sm-hide"></div>
+                        <!-- <div class="spacer-single sm-hide"></div>
                                 <img src="Grove/GRI.webp" class="img-fluid mb-4 wow scaleIn" alt=""> -->
-                                <img src="Ghost/GHI.webp" class="img-fluid w-100 wow scaleIn" alt="">
-                            <!-- </div>
+                        <img src="Ghost/GHI.webp" class="img-fluid w-100 wow scaleIn" alt="">
+                        <!-- </div>
                         </div> -->
                     </div>
 
@@ -259,7 +270,8 @@
                         <div class="search-filter-container bg-light-dark p-4 rounded">
                             <div class="row g-3">
                                 <div class="col-md-4">
-                                    <input type="text" id="searchInput" class="form-control" placeholder="Search properties...">
+                                    <input type="text" id="searchInput" class="form-control"
+                                        placeholder="Search properties...">
                                 </div>
                                 <div class="col-md-2">
                                     <select id="locationFilter" class="form-control">
@@ -291,7 +303,8 @@
                                     </select>
                                 </div>
                                 <div class="col-md-2">
-                                    <button id="clearFilters" class="btn1 btn-outline-light w-100">Clear Filters</button>
+                                    <button id="clearFilters" class="btn1 btn-outline-light w-100">Clear
+                                        Filters</button>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +312,8 @@
                 </div>
 
                 <div class="row g-4" id="propertiesContainer">
-                    <div class="col-md-6 property-item" data-location="Al Jadaf" data-type="Studio, 1, 2, and 3-Bedroom" data-price="888888">
+                    <div class="col-md-6 property-item" data-location="Al Jadaf" data-type="Studio, 1, 2, and 3-Bedroom"
+                        data-price="888888">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
                             <span
@@ -326,15 +340,18 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 888,888 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-type="Studio, 1, 2, and 3-Bedroom" data-price="674999">
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle"
+                        data-type="Studio, 1, 2, and 3-Bedroom" data-price="674999">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
-                                  <span
+                            <span
                                 class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-3"
                                 style="font-size: 0.85rem;">New Launch</span>
                             <div class="wow scaleIn overflow-hidden">
@@ -358,15 +375,18 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 674,999 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Al Jaddaf Waterfront" data-type="1, 2, and 3-Bedroom" data-price="1299000">
+                    <div class="col-md-6 property-item" data-location="Al Jaddaf Waterfront"
+                        data-type="1, 2, and 3-Bedroom" data-price="1299000">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
-                                  <span
+                            <span
                                 class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-3"
                                 style="font-size: 0.85rem;">New Launch</span>
                             <div class="wow scaleIn overflow-hidden">
@@ -390,12 +410,15 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 1,299,000 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Al Jadaf" data-type="Studio, 1-2 Bedroom" data-price="888888">
+                    <div class="col-md-6 property-item" data-location="Al Jadaf" data-type="Studio, 1-2 Bedroom"
+                        data-price="888888">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
                             <div class="wow scaleIn overflow-hidden">
@@ -419,12 +442,15 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 888,888 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-type="1, 2, and 3-Bedroom" data-price="1200000">
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle"
+                        data-type="1, 2, and 3-Bedroom" data-price="1200000">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
                             <div class="wow scaleIn overflow-hidden">
@@ -448,12 +474,15 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 1,200,000 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Business Bay" data-type="2, 3, 4-Bedroom" data-price="19090000">
+                    <div class="col-md-6 property-item" data-location="Business Bay" data-type="2, 3, 4-Bedroom"
+                        data-price="19090000">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
                             <div class="wow scaleIn overflow-hidden">
@@ -477,12 +506,15 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 19,090,000 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 property-item" data-location="Downtown Dubai" data-type="2 to 6-Bedroom" data-price="11299999">
+                    <div class="col-md-6 property-item" data-location="Downtown Dubai" data-type="2 to 6-Bedroom"
+                        data-price="11299999">
                         <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
                             data-wow-delay=".0s">
                             <div class="wow scaleIn overflow-hidden">
@@ -506,6 +538,8 @@
                                     <span class="badge bg-dark">Apartment</span>
                                     <span class="badge bg-light text-dark">Starting from 11,299,999 AED</span>
                                 </div>
+                                <small class="d-block mt-1" style="font-size: 0.85em; color: #e8e8e8;">Prices are
+                                    subject to change based on inventory availability.</small>
                             </div>
                             <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
                         </div>
@@ -532,154 +566,207 @@
         </section>
 
 
-
-
-
-
-
-
-
-
-        <section id="contact" class="relative">
-
+        <section id="section-agents" class="relative ">
             <div class="container relative z-2">
-                <div class="row g-4 justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Meet Our Special Agents</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Meet Our Special Agent</h2>
                     </div>
                 </div>
 
-                <!-- Agents Section -->
-                <div class="row g-4 gx-5">
-                    <!-- Agent 1 -->
+                <!-- Carousel starts here -->
+                <div id="agentCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
 
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="agentss/Pauras.png" class="w-40  circle" alt="pauras">
-                            <div class="mt-3">
-                                <h4 class="mb-0">Pauras Shah</h4>
-                                <div class="fw-500 id-color">Senior Sales Manager</div>
-                                <div class="fw-500 id-color">English / Hindi / Gujrati</div>
-                                <div class="mt-2">
-                                    <a href="mailto:pauras@indusre.ae" title="Email" class="me-3">
-                                        <i class="fa-solid fa-envelope fa-lg"></i>
-                                    </a>
-                                    <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="pauras"
-                                        data-phone="+971556610924" data-agent-inc="607e71fad0822">
-                                        <i class="fa-solid fa-phone fa-lg"></i>
-                                    </a>
-                                    <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn" data-agent="pauras"
-                                        data-phone="+971556610924" data-agent-inc="607e71fad0822">
-                                        <i class="fa-brands fa-whatsapp fa-lg"></i>
-                                    </a>
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/Pauras.png" class="w-50" alt="pauras">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Pauras Shah</h4>
+                                            <div class="fw-500 id-color">Senior Sales Manager</div>
+                                            <div class="fw-500 id-color">English / Hindi / Gujrati</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:pauras@indusre.ae" title="Email" class="me-3">
+                                                    <i class="fa-solid fa-envelope fa-lg"></i>
+                                                </a>
+                                                <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="pauras"
+                                                    data-phone="+971556610924" data-agent-inc="607e71fad0822">
+                                                    <i class="fa-solid fa-phone fa-lg"></i>
+                                                </a>
+                                                <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn"
+                                                    data-agent="pauras" data-phone="+971556610924"
+                                                    data-agent-inc="607e71fad0822">
+                                                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/Kamu.png" class="w-50 " alt="kamlesh">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Kamlesh Pagarani</h4>
+                                            <div class="fw-500 id-color">Senior Client Manager</div>
+                                            <div class="fw-500 id-color">English / Hindi / Sindhi</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:KAMLESH.PAGARANI@indusre.ae" class="me-3"><i
+                                                        class="fa-solid fa-envelope fa-lg"></i></a>
+                                                <a class="me-3 callBtn" data-agent="kamlesh" data-phone="+971559291729"
+                                                    data-agent-inc="AG5b1b9eb6881da"><i
+                                                        class="fa-solid fa-phone fa-lg"></i></a>
+                                                <a class="whatsappBtn" data-agent="kamlesh" data-phone="+971559291729"
+                                                    data-agent-inc="AG5b1b9eb6881da"><i
+                                                        class="fa-brands fa-whatsapp fa-lg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/nardos.png" class="w-50" alt="Nardos Gidey">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Nardos Gidey</h4>
+                                            <div class="fw-500 id-color">Client Manager</div>
+                                            <div class="fw-500 id-color">Amharic & English</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:nardos.gidey@indusre.ae" title="Email" class="me-3">
+                                                    <i class="fa-solid fa-envelope fa-lg"></i>
+                                                </a>
+                                                <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="Nardos"
+                                                    data-phone="+971551462613" data-agent-inc="665ac7d98846f">
+                                                    <i class="fa-solid fa-phone fa-lg"></i>
+                                                </a>
+                                                <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn"
+                                                    data-agent="Nardos" data-phone="+971551462613"
+                                                    data-agent-inc="665ac7d98846f">
+                                                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="agentss/Kamu.png" class="w-40  circle" alt="kamlesh">
-                            <div class="mt-3">
-                                <h4 class="mb-0">Kamlesh Pagarani</h4>
-                                <div class="fw-500 id-color">Senior Client Manager</div>
-                                <div class="fw-500 id-color">English / Hindi / Sindhi</div>
-                                <div class="mt-2">
-                                    <a href="mailto:KAMLESH.PAGARANI@indusre.ae" title="Email" class="me-3">
-                                        <i class="fa-solid fa-envelope fa-lg"></i>
-                                    </a>
-                                    <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="kamlesh"
-                                        data-phone="+971558148095" data-agent-inc="AG5b1b9eb6881da">
-                                        <i class="fa-solid fa-phone fa-lg"></i>
-                                    </a>
-                                    <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn" data-agent="kamlesh"
-                                        data-phone="+971558148095" data-agent-inc="AG5b1b9eb6881da">
-                                        <i class="fa-brands fa-whatsapp fa-lg"></i>
-                                    </a>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/Navid.png" class="w-50" alt="Navid Rostamnamadi">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Navid Rostamnamadi</h4>
+                                            <div class="fw-500 id-color">Client Manager</div>
+                                            <div class="fw-500 id-color">Farsi & English</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:navid.rostamnamadi@indusre.ae" title="Email"
+                                                    class="me-3">
+                                                    <i class="fa-solid fa-envelope fa-lg"></i>
+                                                </a>
+                                                <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="Navid"
+                                                    data-phone="+971523776924" data-agent-inc="678754ac00f4e">
+                                                    <i class="fa-solid fa-phone fa-lg"></i>
+                                                </a>
+                                                <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn"
+                                                    data-agent="Navid" data-phone="+971523776924"
+                                                    data-agent-inc="678754ac00f4e">
+                                                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/Pauras.png" class="w-50" alt="pauras">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Pauras Shah</h4>
+                                            <div class="fw-500 id-color">Senior Sales Manager</div>
+                                            <div class="fw-500 id-color">English / Hindi / Gujrati</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:pauras@indusre.ae" title="Email" class="me-3">
+                                                    <i class="fa-solid fa-envelope fa-lg"></i>
+                                                </a>
+                                                <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="pauras"
+                                                    data-phone="+971556610924" data-agent-inc="607e71fad0822">
+                                                    <i class="fa-solid fa-phone fa-lg"></i>
+                                                </a>
+                                                <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn"
+                                                    data-agent="pauras" data-phone="+971556610924"
+                                                    data-agent-inc="607e71fad0822">
+                                                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <img src="agentss/Kamu.png" class="w-50 " alt="kamlesh">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Kamlesh Pagarani</h4>
+                                            <div class="fw-500 id-color">Senior Client Manager</div>
+                                            <div class="fw-500 id-color">English / Hindi / Sindhi</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:KAMLESH.PAGARANI@indusre.ae" class="me-3"><i
+                                                        class="fa-solid fa-envelope fa-lg"></i></a>
+                                                <a class="me-3 callBtn" data-agent="kamlesh" data-phone="+971559291729"
+                                                    data-agent-inc="AG5b1b9eb6881da"><i
+                                                        class="fa-solid fa-phone fa-lg"></i></a>
+                                                <a class="whatsappBtn" data-agent="kamlesh" data-phone="+971559291729"
+                                                    data-agent-inc="AG5b1b9eb6881da"><i
+                                                        class="fa-brands fa-whatsapp fa-lg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="agentss/nardos.png" class="w-40 circle" alt="Nardos Gidey">
-                            <div class="mt-3">
-                                <h4 class="mb-0">Nardos Gidey</h4>
-                                <div class="fw-500 id-color">Client Manager</div>
-                                <div class="fw-500 id-color">Amharic & English</div>
-                                <div class="mt-2">
-                                    <a href="mailto:nardos.gidey@indusre.ae" title="Email" class="me-3">
-                                        <i class="fa-solid fa-envelope fa-lg"></i>
-                                    </a>
-                                    <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="Nardos"
-                                        data-phone="+971551462613" data-agent-inc="665ac7d98846f">
-                                        <i class="fa-solid fa-phone fa-lg"></i>
-                                    </a>
-                                    <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn" data-agent="Nardos"
-                                        data-phone="+971551462613" data-agent-inc="665ac7d98846f">
-                                        <i class="fa-brands fa-whatsapp fa-lg"></i>
-                                    </a>
+                        <!-- Slide 4 -->
+                        <!-- <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="text-center">
+                                        <img src="agentss/Rupesh.png" class="w-40 " alt="rupesh">
+                                        <div class="mt-3">
+                                            <h4 class="mb-0">Rupesh Kumar Govindani</h4>
+                                            <div class="fw-500 id-color">Client Manager</div>
+                                            <div class="fw-500 id-color">English / Hindi</div>
+                                            <div class="mt-2">
+                                                <a href="mailto:Deepanshu.Deepak@indusre.ae" class="me-3"><i
+                                                        class="fa-solid fa-envelope fa-lg"></i></a>
+                                                <a class="me-3 callBtn" data-agent="rupesh" data-phone="+971582591506"
+                                                    data-agent-inc="c9af3b0i17s7fae12a1e3bb"><i
+                                                        class="fa-solid fa-phone fa-lg"></i></a>
+                                                <a class="whatsappBtn" data-agent="rupesh" data-phone="+971582591506"
+                                                    data-agent-inc="c9af3b0i17s7fae12a1e3bb"><i
+                                                        class="fa-brands fa-whatsapp fa-lg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                     </div>
 
-                    <!-- Agent 2 -->
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="agentss/Navid.png" class="w-40  circle" alt="Navid Rostamnamadi">
-                            <div class="mt-3">
-                                <h4 class="mb-0">Navid Rostamnamadi</h4>
-                                <div class="fw-500 id-color">Client Manager</div>
-                                <div class="fw-500 id-color">Farsi & English</div>
-                                <div class="mt-2">
-                                    <a href="mailto:navid.rostamnamadi@indusre.ae" title="Email" class="me-3">
-                                        <i class="fa-solid fa-envelope fa-lg"></i>
-                                    </a>
-                                    <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="Navid"
-                                        data-phone="+971523776924" data-agent-inc="678754ac00f4e">
-                                        <i class="fa-solid fa-phone fa-lg"></i>
-                                    </a>
-                                    <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn" data-agent="Navid"
-                                        data-phone="+971523776924" data-agent-inc="678754ac00f4e">
-                                        <i class="fa-brands fa-whatsapp fa-lg"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="agentss/Rupesh.png" class="w-40 circle" alt="rupesh">
-                            <div class="mt-3">
-                                <h4 class="mb-0">Rupesh Kumar Govindani</h4>
-                                <div class="fw-500 id-color">Client Manager</div>
-                                <div class="fw-500 id-color">English / Hindi </div>
-                                <div class="mt-2">
-                                    <a href="mailto:Deepanshu.Deepak@indusre.ae" title="Email" class="me-3">
-                                        <i class="fa-solid fa-envelope fa-lg"></i>
-                                    </a>
-                                    <a title="Call" id="callbtn1" class="me-3 callBtn" data-agent="rupesh"
-                                        data-phone="+971582591506" data-agent-inc="c9af3b0i17s7fae12a1e3bb">
-                                        <i class="fa-solid fa-phone fa-lg"></i>
-                                    </a>
-                                    <a id="whatsappBtn1" title="WhatsApp" class="whatsappBtn" data-agent="rupesh"
-                                        data-phone="+971582591506" data-agent-inc="c9af3b0i17s7fae12a1e3bb">
-                                        <i class="fa-brands fa-whatsapp fa-lg"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#agentCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#agentCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
                 </div>
-
             </div>
         </section>
+
 
         <section class="bg-dark section-dark text-light relative  overflow-hidden">
             <div class="container-fluid position-relative">
@@ -769,8 +856,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <a class="d-block hover popup-youtube"
-                            href="https://www.youtube.com/watch?v=whU8N-YUBC0">
+                        <a class="d-block hover popup-youtube" href="https://www.youtube.com/watch?v=whU8N-YUBC0">
                             <div class="relative overflow-hidden">
                                 <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
                                     <div class="player circle wow scaleIn"><span></span></div>
@@ -968,80 +1054,215 @@
         </div>
     </section>
 
-    <!-- footer begin -->
-    <footer class="section-dark">
-        <!-- <div class="container">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center">
-                        <img src="indus.png" class="w-200px" alt="">
-                        <div class="spacer-single"></div>
-                        <div class="fs-16">
-                            Almas Tower , Jumeirah Lake Towers<br>
-                            Dubai , UAE
-                        </div>
+    <footer class="text-light pt-5">
+        <div class="container">
+
+            <!-- Extended Footer Links Section -->
+            <div class="row gy-4">
+                <!-- Top Searches -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Top Searches</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?city=Dubai&category=sale"
+                                class="text-light text-decoration-none">Properties for sale in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?city=Dubai&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=villa&category=sale"
+                                class="text-light text-decoration-none">Villas for sale in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=villa&category=rent"
+                                class="text-light text-decoration-none">Villas for rent in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=apartment&category=sale"
+                                class="text-light text-decoration-none">Apartment for sale in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=apartment&category=rent"
+                                class="text-light text-decoration-none">Apartment for rent in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=townhouse&category=sale"
+                                class="text-light text-decoration-none">Townhouse for sale in Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?type=townhouse&category=rent"
+                                class="text-light text-decoration-none">Townhouse for rent in Dubai</a></li>
+                    </ul>
+                </div>
+
+                <!-- Top Community Searches -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Top Community Searches</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=Dubai+marina"
+                                class="text-light text-decoration-none">Dubai Marina</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=palm+jumeirah"
+                                class="text-light text-decoration-none">Palm Jumeirah</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=business+bay"
+                                class="text-light text-decoration-none">Business Bay</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+hills+estate"
+                                class="text-light text-decoration-none">Dubai Hills Estate</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=jumeirah+lake+tower"
+                                class="text-light text-decoration-none">Jumeirah Lake Towers</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=jumeirah+village+circle"
+                                class="text-light text-decoration-none">Jumeirah Village Circle</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=downtown+dubai"
+                                class="text-light text-decoration-none">Downtown Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+creek+harbour"
+                                class="text-light text-decoration-none">Dubai Creek Harbour</a></li>
+                    </ul>
+                </div>
+
+                <!-- Properties For Rent -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Properties For Rent</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=palm+jumeirah&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Palm Jumeirah</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+marina&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Marina</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=business+bay&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Business Bay</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=downtown+dubai&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Downtown Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Harbour</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=jumeirah+lake+towers&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Jumeirah Lake Towers</a>
+                        </li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+hills+estate&category=rent"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Hills Estate</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Properties For Sale -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Properties For Sale</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=palm+jumeirah&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Palm Jumeirah</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+marina&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Marina</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=business+bay&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Business Bay</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=downtown+dubai&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Downtown Dubai</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Harbour</a></li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=jumeirah+lake+towers&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Jumeirah Lake Towers</a>
+                        </li>
+                        <li><i class="fas fa-angle-right me-2"></i> <a
+                                href="https://www.indusre.ae/property.php?community=dubai+hills+estate&category=sale"
+                                class="text-light text-decoration-none">Properties for rent in Dubai Hills Estate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Footer Content -->
+            <div class="row gy-4 mt-2">
+
+                <!-- Company Overview -->
+                <div class="col-lg-5 col-md-6">
+                    <img src="indus.png" class="mb-3" alt="Indus Logo" style="max-width: 180px;">
+                    <p class="small">
+                        Established in 2004, Indus Real Estate LLC is a distinguished Real Estate Regulatory Agency
+                        (RERA)
+                        registered company, celebrating 20 years of unparalleled success in Dubai's dynamic real estate
+                        landscape.
+                    </p>
+                    <p class="small">
+                        With a solid foundation built on integrity, transparency, and excellence, we have garnered a
+                        reputable
+                        position as a premier real estate agency in the UAE and beyond.
+                    </p>
+                </div>
+
+                <!-- Get in Touch -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold">Get In Touch</h5>
+                    <p><strong>Head Office:</strong><br> Bur Dubai, 118163, Dubai, UAE</p>
+                    <p><strong>DMCC Branch:</strong><br> Jumeirah Lake Towers, Dubai, UAE</p>
+                    <p><strong>Customer Care:</strong><br> 800 INDUS (46387)</p>
+                    <p><strong>Need Live Support:</strong><br> <a href="mailto:info@indusre.ae"
+                            class="text-light">info@indusre.ae</a></p>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold">Useful Link</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="https://www.indusre.ae/about.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>About us</a></li>
+                        <li><a href="https://www.indusre.ae/about.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>Featured Properties</a></li>
+                        <li><a href="https://www.indusre.ae/property.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>Our Best Services</a></li>
+                        <li><a href="https://www.indusre.ae/contact.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>Request Visit</a></li>
+                    </ul>
+                </div>
+
+                <!-- Explore -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold">Explore</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="https://www.indusre.ae/property.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>All Properties</a></li>
+                        <li><a href="https://www.indusre.ae/our-team.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>Our Agents</a></li>
+                        <li><a href="https://www.indusre.ae/property.php" class="text-light text-decoration-none"><i
+                                    class="fas fa-angle-right me-2"></i>All Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="row mt-4 pt-3 border-top border-secondary">
+                <div class="col-md-6 text-left small mb-3">
+                    Copyright 2025 - Indus Real Estate LLC
+                </div>
+                <div class="col-md-6 text-end small mb-3">
+                    <div class="social-icons mb-sm-30 text-center">
+                        <a href="https://www.facebook.com/profile.php?id=100083310042155"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/indusrealestate"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indusREdubai/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@IndusRealEstateLLC"><i class="fa-brands fa-youtube"></i></a>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=97180046387&text=Hi%2C%20I%20came%20across%20your%20website%20(dubai-south-lp)%20and%20I%27m%20interested%20in%20learning%20more%20about%20your%20property%20listings%20and%20available%20options.%20Kindly%20connect%20me%20with%20one%20of%20your%20property%20specialists.%20Thank%20you!"><i
+                                class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
 
-            <div class="spacer-double"></div>
-
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-60 id-color icon_phone"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Call Us</h4>
-                            <p>Call: +971 56 139 6917</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-60 id-color icon_clock"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Opening Hours</h4>
-                            <p>Mon to Sat 08:00 - 20:00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-sm-30">
-                    <div class="d-flex justify-content-center">
-                        <i class="fs-60 id-color icon_mail"></i>
-                        <div class="ms-3">
-                            <h4 class="mb-0">Email Us</h4>
-                            <p>contact@residem.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div class="subfooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mt-2">
-                        Copyright 2025 - Indus Real Estate
-                    </div>
-                    <div class="col-md-6 text-md-end">
-                        <div class="social-icons mb-sm-30 text-center">
-                            <a href="https://www.facebook.com/profile.php?id=100083310042155"><i
-                                    class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/company/indusrealestate"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/indusREdubai/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@IndusRealEstateLLC"><i
-                                    class="fa-brands fa-youtube"></i></a>
-                            <a
-                                href="https://api.whatsapp.com/send?phone=97180046387&text=Hi%2C%20I%20came%20across%20your%20website%20(mira-developments-lp)%20and%20I%27m%20interested%20in%20learning%20more%20about%20your%20property%20listings%20and%20available%20options.%20Kindly%20connect%20me%20with%20one%20of%20your%20property%20specialists.%20Thank%20you!"><i
-                                    class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </footer>
+
     <div id="whatsappModal" class="modal5">
         <div class="modal5-content">
             <span class="close" id="whatsappClose">&times;</span>
@@ -1276,8 +1497,6 @@
         .callBtn {
             cursor: pointer;
         }
-
-        
     </style>
 
     <script>
@@ -1392,7 +1611,7 @@
 
     <!-- Property Search and Filter Script -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const searchInput = document.getElementById('searchInput');
             const locationFilter = document.getElementById('locationFilter');
             const typeFilter = document.getElementById('typeFilter');
@@ -1400,11 +1619,11 @@
             const clearFiltersBtn = document.getElementById('clearFilters');
             const showMoreBtn = document.getElementById('showMoreBtn');
             const noResults = document.getElementById('noResults');
-            
+
             const propertyItems = document.querySelectorAll('.property-item');
             let visibleCount = 6;
             let filteredItems = [];
-            
+
             // Initialize - show only first 6 properties
             function initializeProperties() {
                 propertyItems.forEach((item, index) => {
@@ -1415,37 +1634,37 @@
                 filteredItems = Array.from(propertyItems);
                 updateShowMoreButton();
             }
-            
+
             // Filter properties based on search and filter criteria
             function filterProperties() {
                 const searchTerm = searchInput.value.toLowerCase();
                 const locationValue = locationFilter.value;
                 const typeValue = typeFilter.value;
                 const priceValue = priceFilter.value;
-                
+
                 propertyItems.forEach(item => {
                     const title = item.querySelector('h3').textContent.toLowerCase();
                     const location = item.getAttribute('data-location');
                     const type = item.getAttribute('data-type');
                     const price = parseInt(item.getAttribute('data-price'));
-                    
+
                     let show = true;
-                    
+
                     // Search filter
                     if (searchTerm && !title.includes(searchTerm)) {
                         show = false;
                     }
-                    
+
                     // Location filter
                     if (locationValue && location !== locationValue) {
                         show = false;
                     }
-                    
+
                     // Type filter
                     if (typeValue && !type.includes(typeValue)) {
                         show = false;
                     }
-                    
+
                     // Price filter
                     if (priceValue) {
                         const [min, max] = priceValue.split('-').map(Number);
@@ -1453,28 +1672,28 @@
                             show = false;
                         }
                     }
-                    
+
                     if (show) {
                         item.classList.remove('hidden');
                     } else {
                         item.classList.add('hidden');
                     }
                 });
-                
+
                 // Update filtered items array
                 filteredItems = Array.from(propertyItems).filter(item => !item.classList.contains('hidden'));
-                
+
                 // Reset show more functionality
                 visibleCount = 6;
                 updateVisibleProperties();
                 updateShowMoreButton();
                 updateNoResultsMessage();
             }
-            
+
             // Update visible properties
             function updateVisibleProperties() {
                 const visibleItems = filteredItems.slice(0, visibleCount);
-                
+
                 propertyItems.forEach(item => {
                     if (filteredItems.includes(item)) {
                         if (visibleItems.includes(item)) {
@@ -1487,7 +1706,7 @@
                     }
                 });
             }
-            
+
             // Update show more button
             function updateShowMoreButton() {
                 if (filteredItems.length <= visibleCount) {
@@ -1496,7 +1715,7 @@
                     showMoreBtn.style.display = 'inline-block';
                 }
             }
-            
+
             // Update no results message
             function updateNoResultsMessage() {
                 if (filteredItems.length === 0) {
@@ -1505,31 +1724,31 @@
                     noResults.style.display = 'none';
                 }
             }
-            
+
             // Show more button click handler
-            showMoreBtn.addEventListener('click', function() {
+            showMoreBtn.addEventListener('click', function () {
                 visibleCount += 6;
                 updateVisibleProperties();
                 updateShowMoreButton();
             });
-            
+
             // Search input event listener
             searchInput.addEventListener('input', filterProperties);
-            
+
             // Filter change event listeners
             locationFilter.addEventListener('change', filterProperties);
             typeFilter.addEventListener('change', filterProperties);
             priceFilter.addEventListener('change', filterProperties);
-            
+
             // Clear filters button
-            clearFiltersBtn.addEventListener('click', function() {
+            clearFiltersBtn.addEventListener('click', function () {
                 searchInput.value = '';
                 locationFilter.value = '';
                 typeFilter.value = '';
                 priceFilter.value = '';
                 filterProperties();
             });
-            
+
             // Initialize on page load
             initializeProperties();
         });
